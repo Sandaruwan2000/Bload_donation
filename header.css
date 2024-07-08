@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'popins',sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+body{
+    background-color: rgb(243, 238, 238);
+}
+.header{
+    border:none;
+    width:1290px ;
+    height: 150px;
+    position: fixed;
+    top : 0px ;
+    z-index: 1;
+    background-color:rgb(171, 51, 51);
+    
+   
+
+
+}
+.navbar ul li{
+    display: inline-block;
+    position: relative;
+    left :200px;
+    padding: 80px;
+    top:30px ;
+    
+    font-size: large;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+}
+.logo ,.navbar ul li{
+    display:inline;
+
+}
+.nav{
+    width:1150px ;
+    height:80px ;
+    background-color: rgb(235, 231, 231);
+    position: relative;
+   top: -120px;
+   left:150px;
+   
+}
+.navbar ul li a  :visited{
+    color: blueviolet;
+
+}
+.navbar ul li a :hover{
+    color:white;
+
+}
+.navbar ul li a :active {
+    color: red;
+}
+
+
+.navbar a {
+   color:black;
+   
+
+}   
